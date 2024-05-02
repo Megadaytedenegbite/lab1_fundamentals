@@ -23,7 +23,3 @@ fun FundamentalsApp() {
         }
     }
 }
-@Composable
-fun MyComposableFunction() {
-    // TODO()
-}
