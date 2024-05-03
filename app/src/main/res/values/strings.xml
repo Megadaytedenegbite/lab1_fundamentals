@@ -15,6 +15,7 @@
     <string name="button_container_surface">Контейнер Surface</string>
     <string name="button_container_scaffold">Контейнер Scaffold</string>
     <string name="button_scrolling">Прокрутка</string>
+    <string name="button_list">List</string>
     <string name="title_alertDialog">Внимание</string>
     <string name="alertDialog_about">Это диалоговое окно</string>
     <string name="insert_email">Email</string>
@@ -29,4 +30,5 @@
     <string name="kotlin">Kotlin</string>
     <string name="swift">Swift</string>
     <string name="ios">Ios</string>
+    <string name="book_covers">Обложки книг</string>
 </resources>
