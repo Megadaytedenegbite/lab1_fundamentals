@@ -24,7 +24,7 @@ private val items = listOf(
     Icons.Filled.Close,
     Icons.Filled.ThumbUp,
     Icons.Filled.Build,
-    Icons.Filled.ThumbUp,
+    Icons.Filled.ThumbUp
 )
 
 @Composable
@@ -36,19 +36,14 @@ fun GridScreen() {
     }
 }
 
-@Composable
-fun GridView(columnCount: Int) {
-    //TODO add your code here
-}
 
 @Composable
-fun RowItem(rowItems: List<IconResource>) {
-    //TODO add your code here
-}
+fun GridView(columnCount: Int) {}
 
 @Composable
-fun RowScope.GridIcon(iconResource: IconResource) {
-    //TODO add your code here
-}
+fun RowItem(rowItem: List<IconResource>) {}
+
+@Composable
+fun RowScope.GridIcon(iconResource: IconResource) {}
 
 data class IconResource(val imageVector: ImageVector, val isVisible: Boolean)

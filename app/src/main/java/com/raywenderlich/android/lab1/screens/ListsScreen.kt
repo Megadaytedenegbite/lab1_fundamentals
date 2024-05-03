@@ -29,14 +29,14 @@ private val items = listOf(
         listOf(
             R.drawable.combine,
             R.drawable.rx_swift,
-            R.drawable.swift_apprentice,
+            R.drawable.swift_apprentice
         )
     ),
     BookCategory(
         R.string.ios,
         listOf(
             R.drawable.core_data,
-            R.drawable.ios_apprentice,
+            R.drawable.ios_apprentice
         )
     )
 )
@@ -51,14 +51,10 @@ fun ListScreen() {
 }
 
 @Composable
-fun MyList() {
-    //TODO add your code here
-}
+fun MyList() {}
 
 @Composable
-fun ListItem(bookCategory: BookCategory, modifier: Modifier = Modifier) {
-    //TODO add your code here
-}
+fun ListItem(BookCategory: BookCategory, modifier: Modifier = Modifier) {}
 
 data class BookCategory(
     @StringRes

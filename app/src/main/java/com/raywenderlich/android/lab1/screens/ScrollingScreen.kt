@@ -25,9 +25,7 @@ fun ScrollingScreen() {
 }
 
 @Composable
-fun MyScrollingScreen() {
-    //TODO add your code here
-}
+fun MyScrollingScreen() {}
 
 @Composable
 fun BookImage(@DrawableRes imageResId: Int, @StringRes contentDescriptionResId: Int) {
@@ -36,5 +34,6 @@ fun BookImage(@DrawableRes imageResId: Int, @StringRes contentDescriptionResId: 
         contentDescription = stringResource(contentDescriptionResId),
         contentScale = ContentScale.FillBounds,
         modifier = Modifier.size(476.dp, 616.dp)
+
     )
 }
