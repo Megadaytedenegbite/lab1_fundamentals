@@ -61,22 +61,22 @@ fun MyTopAppBar(scaffoldState: ScaffoldState, scope: CoroutineScope) {
                     Icon(
                         Icons.Default.Menu,
                         tint = Color.White,
-                        contentDescription = stringResource(id = R.string.iconContentDescription)
+                        contentDescription = stringResource(id = R.string.menu),
                     )
                 },
                 onClick = {
-                    scope.launch { if (drawerState.isClosed) drawerState.open() else drawerState.close()}
-                }
+                    scope.launch { if (drawerState.isClosed) drawerState.open() else drawerState.close() }
+                },
             )
         },
-        title = { Text(text = stringResource(id = R.string.topAppBarTitle), color = Color.White) },
-        backgroundColor = colorResource(id = R.color.colorPrimary)
+        title = { Text(text = stringResource(id = R.string.app_name), color = Color.White) },
+        backgroundColor = colorResource(id = R.color.colorPrimary),
     )
 }
 
 @Composable
 fun MyBottomAppBar() {
-    BottomAppBar(
+    BottomAppBar (
         content = {},
         backgroundColor = colorResource(id = R.color.colorPrimary)
     )
